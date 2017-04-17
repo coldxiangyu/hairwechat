@@ -28,9 +28,9 @@ public class DBUtil {
 
 			String driver = prop.getProperty("driver");
 
-			String username = prop.getProperty("username");
-			String password = prop.getProperty("password");
-			String url = prop.getProperty("url");// 使用从库的域名
+			String username = prop.getProperty("sae.username");
+			String password = prop.getProperty("sae.password");
+			String url = prop.getProperty("sae.url");// 使用从库的域名
 
 			Map<String, String> envMap = System.getenv();
 
@@ -40,12 +40,6 @@ public class DBUtil {
 				username = prop.getProperty("local.username");
 				password = prop.getProperty("local.password");
 				url = prop.getProperty("local.url");
-			}
-			// SAE
-			else {
-				username = prop.getProperty("sae.username");
-				password = prop.getProperty("sae.password");
-				url = prop.getProperty("sae.url");
 			}
 
 			Class.forName(driver).newInstance();
@@ -138,6 +132,9 @@ public class DBUtil {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
+	public static void main(String[] args){
+		testDB();
 	}
 
 }

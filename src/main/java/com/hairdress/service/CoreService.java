@@ -200,7 +200,7 @@ public class CoreService {
 					Article article = new Article();
 					article.setTitle("你还在为美容美发排队烦恼吗？");
 					article.setDescription("预约排号，让美容美发不再等待！");
-					article.setPicUrl("http://hairwechat.applinzi.com/hair1");
+					article.setPicUrl("http://hairwechat.applinzi.com/hair1.jpg");
 					article.setUrl("http://www.bjyjyzx.cn/zty/201704hd/?bd004pc?k28540&b=qyc");
 					articleList.add(article);
 					// 设置图文消息个数
@@ -217,7 +217,7 @@ public class CoreService {
 					// 图文消息中可以使用QQ表情、符号表情
 					article.setDescription("吃饭预约排号，"
 					// + emoji(0x1F6B9)
-									+ "，\n\n让吃饭不再等待。\n\n");
+									+ "让吃饭不再等待。\n\n");
 					// 将图片置为空
 					article.setPicUrl("");
 					article.setUrl("http://www.meishij.net/");
@@ -229,21 +229,21 @@ public class CoreService {
 				// 多图文消息
 				else if ("3".equals(content)) {
 					Article article1 = new Article();
-					article1.setTitle("test1\n引言");
+					article1.setTitle("美食\n引言");
 					article1.setDescription("");
-					article1.setPicUrl("http://hairwechat.applinzi.com/food1");
+					article1.setPicUrl("http://hairwechat.applinzi.com/food1.jpg");
 					article1.setUrl("http://www.meishij.net/");
 
 					Article article2 = new Article();
-					article2.setTitle("test2\n微信公众帐号");
+					article2.setTitle("国贸小吃\n关注wechat，更多餐饮信息");
 					article2.setDescription("");
-					article2.setPicUrl("http://hairwechat.applinzi.com/food2");
+					article2.setPicUrl("http://hairwechat.applinzi.com/food2.jpg");
 					article2.setUrl("http://www.meishij.net/");
 
 					Article article3 = new Article();
 					article3.setTitle("关注页面");
 					article3.setDescription("关注页面");
-					article3.setPicUrl("http://hairwechat.applinzi.com/food3");
+					article3.setPicUrl("http://hairwechat.applinzi.com/food3.jpg");
 					article3.setUrl("http://www.meishij.net/");
 
 					articleList.add(article1);
@@ -256,27 +256,27 @@ public class CoreService {
 				// 多图文消息---首条消息不含图片
 				else if ("4".equals(content)) {
 					Article article1 = new Article();
-					article1.setTitle("微信公众帐号测试");
+					article1.setTitle("冷湘宇的博客");
 					article1.setDescription("");
 					// 将图片置为空
 					article1.setPicUrl("");
 					article1.setUrl("https://www.zybuluo.com/coldxiangyu/note/712510");
 
 					Article article2 = new Article();
-					article2.setTitle("微信公众帐号测试");
+					article2.setTitle("test\nredis基本配置");
 					article2.setDescription("");
-					article2.setPicUrl("http://hairwechat.applinzi.com/hair2");
+					article2.setPicUrl("http://hairwechat.applinzi.com/hair2.jpg");
 					article2.setUrl("https://www.zybuluo.com/coldxiangyu/note/705140");
 
 					Article article3 = new Article();
-					article3.setTitle("第5篇\n各种消息的接收与响应");
+					article3.setTitle("test\nredis深入研究持久化");
 					article3.setDescription("");
-					article3.setPicUrl("http://hairwechat.applinzi.com/hair3");
+					article3.setPicUrl("http://hairwechat.applinzi.com/hair3.jpg");
 					article3.setUrl("https://www.zybuluo.com/coldxiangyu/note/712227");
 
 					Article article4 = new Article();
-					article4.setTitle("第6篇\n文本消息的内容长度限制揭秘");
-					article4.setDescription("http://hairwechat.applinzi.com/hair3");
+					article4.setTitle("test\nredis深入研究list");
+					article4.setDescription("http://hairwechat.applinzi.com/hair3.jpg");
 					article4.setPicUrl("");
 					article4.setUrl("https://www.zybuluo.com/coldxiangyu/note/707679");
 
@@ -293,11 +293,11 @@ public class CoreService {
 					Article article1 = new Article();
 					article1.setTitle("第7篇\n文本消息中换行符的使用");
 					article1.setDescription("");
-					article1.setPicUrl("http://hairwechat.applinzi.com/hair3");
+					article1.setPicUrl("http://hairwechat.applinzi.com/hair3.jpg");
 					article1.setUrl("https://www.zybuluo.com/coldxiangyu");
 
 					Article article2 = new Article();
-					article2.setTitle("第8篇\n文本消息中使用网页超链接");
+					article2.setTitle("test\n文本消息中使用网页超链接");
 					article2.setDescription("");
 					article2.setPicUrl("");
 					article2.setUrl("https://www.zybuluo.com/coldxiangyu");
