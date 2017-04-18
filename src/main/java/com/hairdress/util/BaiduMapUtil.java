@@ -167,7 +167,7 @@ public class BaiduMapUtil {
 	 */
 	public static List<Article> makeArticleList(List<BaiduPlace> placeList, String bd09Lng, String bd09Lat) {
 		// 项目的根路径
-		String basePath = "http://1.wxquan.sinaapp.com/";
+		String basePath = "http://hairwechat.applinzi.com/";
 		List<Article> list = new ArrayList<Article>();
 		BaiduPlace place = null;
 		for (int i = 0; i < placeList.size(); i++) {
