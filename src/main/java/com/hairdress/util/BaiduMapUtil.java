@@ -215,4 +215,13 @@ public class BaiduMapUtil {
 		}
 		return location;
 	}
+	
+	public static void main(String[] args) throws Exception{
+		List<BaiduPlace> placeList = searchPlace("理发店","116.364","40.091");
+		BaiduPlace place = null;
+		for (int i = 0; i < placeList.size(); i++) {
+			place = placeList.get(i);
+			System.out.println(place.getName()+",距离我"+place.getDistance()+"米");
+		}
+	}
 }
