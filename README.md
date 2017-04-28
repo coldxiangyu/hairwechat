@@ -1,5 +1,7 @@
-V1.0  20170325
+hairwechat
 ---------------
+
+V1.0  20170325
 这个版本包含以下功能：
 *   1、微信公众平台接口可以通过验证：
 	URL：http://hairwechat.applinzi.com/coreServlet
@@ -15,3 +17,10 @@ V2.0  20170417
 V3.0  20170418
 这个版本更新了以下功能：
 *	1、新增附近功能，例如 ：附近KTV
+
+V4.0  20170428
+更新以下功能：
+*   1、add queryArea.jsp  showMapArea.jsp  QueryMapServlet.java
+*   2、modified web.xml and BaiduMapUtil.java
+*   3、新增根据地址查询经纬度方法
+*   4、新增根据关键字查询某地址附近目标
