@@ -13,6 +13,15 @@
 		<servlet-name>coreServlet</servlet-name>
 		<url-pattern>/coreServlet</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>queryMapServlet</servlet-name>
+		<servlet-class>com.hairdress.servlet.QueryMapServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>queryMapServlet</servlet-name>
+		<url-pattern>/queryMapServlet</url-pattern>
+	</servlet-mapping>
 
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>

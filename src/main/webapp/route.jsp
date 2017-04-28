@@ -13,7 +13,7 @@
 	<style type="text/css">
 		body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;}
 	</style>
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=CA21bdecc75efc1664af5a195c30bb4e"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=R46500oYHx3GOC5bGXkOishFAI4EbEA1"></script>
 </head>
 <%
 	String p1 = request.getParameter("p1");
